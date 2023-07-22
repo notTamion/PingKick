@@ -1,0 +1,10 @@
+name: PingKick
+version: '${project.version}'
+main: de.tamion.PingKick
+authors: [Tamion]
+description: Automatically kicks players with a too high average ping
+
+commands:
+  setpingthreshold:
+  setcheckfrequency:
+  setkickcommand:
