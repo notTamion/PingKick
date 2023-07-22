@@ -21,6 +21,8 @@ public final class PingKick extends JavaPlugin {
 
         defaultconfig();
         checkschedueler();
+
+        Metrics metrics = new Metrics(this, 19188);
     }
 
     public static PingKick getPlugin() {
