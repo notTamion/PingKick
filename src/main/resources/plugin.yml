@@ -1,0 +1,9 @@
+name: PingKick
+version: '${version}'
+main: de.tamion.PingKick
+api-version: '1.13'
+authors: [Tamion]
+description: Automatically kicks player with a high ping
+
+commands:
+  pingkick:

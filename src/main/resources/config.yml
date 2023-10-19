@@ -1,0 +1,10 @@
+# PingKick configuration
+
+# Max Ping allowed. If a players ping goes above this they will be kicked
+max: 100
+
+# Command used to kick the Player. will replace {name}, {ip}, {uuid}, {ping}, {max} with their respective values
+command: 'kick {name} High Ping'
+
+# How many ticks between each ping check
+period: 20
